@@ -1,0 +1,21 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.log
+~$*
+
+# Ignore hidden folders (like cache)
+.cache/
+.idea/
+.vscode/
+
+# Ignore Power BI autosave temp files
+*.pbix.tmp
+*.pbit.tmp
+
+# Ignore OS-specific files
+desktop.ini
